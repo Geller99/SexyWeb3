@@ -60,11 +60,13 @@ int public maximumIntegerValue = type(int).max;
 ```
 
 
-Address
-This data type is how we get rich, so let's focus here...
+Address ->
+
+This data type is how we get rich, so lock-in...
 
 
 For the need to interact with wallet addresses, Solidity provides a data type which is either payable or non-payable and holds a 20 byte value, the usual size of an ethereum wallet address!
+
 We can further interact with addresses in a few ways; 
 		- check for balance 
 		- transfer funds
@@ -81,7 +83,8 @@ address public payable claimerAddress = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa73
 where the payable address contains the transfer and send properties which aren't available on the regular address type.
 ```
 
-Byte data type
+Byte data type ->
+
 Represents a sequence of bytes stored in an array - we're able to implement fixed-sized byte arrays or dynamically-sized byte arrays
 ```
 bytes1 groupOfBytes = 0xb5;  - prints out [10110101];
